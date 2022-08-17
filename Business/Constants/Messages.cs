@@ -67,5 +67,7 @@ namespace Business.Constants
         public static string SuccessfullLogin;
         public static string AuthorizationDenied = "Sie haben kein Erlaubnis.";
         internal static string CarNotAvailable;
+        internal static string CarIsAlreadyRentedInSelectedDateRange = "Dieses Auto ist im dargestellten Zeitraum nicht verfügbar";
+        internal static string CarImageNotFound;
     }
 }
